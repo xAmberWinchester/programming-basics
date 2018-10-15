@@ -1,0 +1,24 @@
+
+.originalSize{
+    width: 333px;
+}
+
+
+.firstTimeSmaller {
+    width: 222px;
+}
+
+.secondTimeSmaller{
+    width: 111px;
+}
+.priceInformation{
+    width: 100%;
+    display: flex;
+}
+.priceTag{
+    width: 11.5%;
+}
+.actualPrice{
+    width: 10%;
+    float: left;
+}
