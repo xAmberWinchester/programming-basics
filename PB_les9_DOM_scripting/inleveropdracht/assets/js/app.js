@@ -1,6 +1,8 @@
 //IN DE LES GEDAAN:
 
 //OPDRACHT 1:
+
+//vanuit js een onderdeel in een tabel maken met onderdelen vanuit html
 console.log('Opdracht 1:');
 
 let course = document.getElementsByTagName('tr');
@@ -26,6 +28,7 @@ tr.appendChild(newListItem2);
 // //OPDRACHT 2:
 console.log('Opdracht 2:');
 
+// kijken of het getal even of oneven is 
 function hoi(){
     var lists = document.getElementsByTagName("li");
 for(let list in lists) {
@@ -34,9 +37,9 @@ for(let list in lists) {
         lists[list].classList.add("hoi");
 
     }
-    // else if(reminder == Math.round(reminder)){
-    //     lists[list].classList.add("doei");
-    // }
+    else if(reminder == Math.round(reminder)){
+        lists[list].classList.add("doei");
+    }
 }
 }
 hoi();
@@ -44,6 +47,8 @@ hoi();
 
 // //OPDRACHT 3:
 console.log('Opdracht 3:');
+
+// een plaatje vanuit js in je html zetten zonder iets toetevoegen aan html of css
 
 function createImageElement(imageSrcName){
     var newImage = document.createElement('img');

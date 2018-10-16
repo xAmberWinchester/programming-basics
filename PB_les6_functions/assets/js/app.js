@@ -1,6 +1,7 @@
 console.log("Opdracht 1:")
 //opdracht 1:
 
+//fibonaccireesk opstellen i guess
 function Fibonacci(){
 console.log(0);
 console.log(1);
@@ -22,6 +23,8 @@ Fibonacci();
 console.log("Opdracht 2:")
 //opdracht 2:
 
+
+//countDown van 10 naar 0
 var i = 10;
 function countDown() {
     var countdownTimer = setInterval(function() {
@@ -38,6 +41,7 @@ countDown();
 console.log("Opdracht 3:")
 //Opdracht 3:
 
+// kloten met hoists
 function hoist() {
     a = 55;
     var b = 765;

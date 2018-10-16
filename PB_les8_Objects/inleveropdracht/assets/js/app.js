@@ -13,6 +13,7 @@ const lapRounds = {
     7: 54.12
 }; 
 console.table(lapRounds);
+//rondentijden in een tabel zetten, vanuit een soort van array
 
 //OPDRACHT 2:
 console.log('Opdracht 2:');
@@ -85,4 +86,4 @@ for (let i = 0; i < docenten.length; i++) {
     let element = docenten[i];
     console.log(`I have a ${element.profession} named ${element.name} and he likes to work on a ${element.brand} computer and he earns €${element.salaryPerHour()} per hour.`)
 }
-
+// i have a ... named ... and he likes to work on a ... computer and he earns ... per hour.

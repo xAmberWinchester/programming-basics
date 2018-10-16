@@ -5,6 +5,7 @@
 let getal = 0;
 console.log('Opdracht 1:');
 
+// een knop gemaakt en click functies eraan gegeven, bij 10x klikken wordt hij 1/3 kleiner en bij 20x klikken weer 1/3 kleiner
 
 const button = document.getElementById('clickerGame');
 button.addEventListener('click', clickEventHandlerClickerGame);
@@ -26,6 +27,7 @@ function clickEventHandlerClickerGame(event) {
 //OPDRACHT 2:
 console.log('Opdracht 2:');
 
+//boodschappenlijst: tabel in js gemaakt en gelinkt in html. Zie html
 
 const sumbitButton = document.getElementById('submit-btn');
 sumbitButton.addEventListener('click', clickEventHandler);
